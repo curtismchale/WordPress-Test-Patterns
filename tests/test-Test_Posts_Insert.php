@@ -47,7 +47,7 @@ class Test_Posts_Insert extends WP_UnitTestCase {
 			'post_name'    => 'post_before_post_name',
 		) );
 
-		$this->assertEquals( 0, $this->post_id );
+		$this->assertEquals( 0, $updated_id );
 
 	}
 
