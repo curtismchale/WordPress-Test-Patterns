@@ -26,7 +26,7 @@ class Test_Posts_Insert extends WP_UnitTestCase {
 	}
 
 	function test_post_id_is_int() {
-		$this->assertIsInt( $this->post_id );
+		$this->assertTrue( is_int( $this->post_id ) );
 	}
 
 	function test_insert_post_returns_0() {

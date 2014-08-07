@@ -26,6 +26,6 @@ class Setup_Teardown_Example extends WP_UnitTestCase {
 	}
 
 	function test_post_id_is_int() {
-		$this->assertIsInt( $this->post_id );
+		$this->assertTrue( is_int( $this->post_id ) );
 	}
 }
